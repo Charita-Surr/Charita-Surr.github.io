@@ -1,0 +1,35 @@
+ิ* {
+	box-sizing: border-box
+}
+
+header {
+	background-color: rgb(233, 84, 128);
+	font-size: 200%;
+	color: whitesmoke;
+	text-align: center;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background-color: #f1f1f1;
+	height: 300px;
+}
+
+section {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+}
+
+.flex-container>div {
+	background-color: tomato;
+	margin: 20px;
+	padding: 10px;
+}
